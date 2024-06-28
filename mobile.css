@@ -11,7 +11,7 @@ body{
     height: 100vh;
     background-repeat: no-repeat;
     display: grid;
-    grid-template-rows: 7vh 80vh 13vh;
+    grid-template-rows: 7vh 75vh 13vh;
     grid-template-columns: 3vw 94vw 3vw;
     width: 100vw;
 }
@@ -70,16 +70,18 @@ main{
 }
 
 nav{
-    grid-row: 3/4;
-    grid-column: 2/3;
-    height: 85%;
+    position: fixed;
+    margin: 0 3vw 2vh 3vw;
+    bottom: 0;
+    height: 13vh;
+    width: 94vw;
     background-color: rgba(0, 0, 0, 0.774);
     border: solid 1px rgb(0, 0, 0);
     border-radius: 1cqmin;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 3cqmin;
+
 }
 
 .addNew, .navSettings{
@@ -93,6 +95,7 @@ nav{
     border: none;
     font-size: 25cqmin;
     text-decoration: none;
+    margin: 0 2cqmin;
 }
 .addNew {
     background: url(img/addBtn.png);
