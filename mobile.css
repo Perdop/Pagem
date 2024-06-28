@@ -8,7 +8,6 @@ body{
     background-color: gray;
     background-size:cover;
     background-position: center;
-
     background-repeat: no-repeat;
     display: grid;
     grid-template-rows: 7vh 75vh 13vh;
