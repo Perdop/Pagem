@@ -8,7 +8,7 @@ body{
     background-color: gray;
     background-size:cover;
     background-position: center;
-    height: 100vh;
+
     background-repeat: no-repeat;
     display: grid;
     grid-template-rows: 7vh 75vh 13vh;
@@ -70,10 +70,10 @@ main{
 }
 
 nav{
-    position: fixed;
-    margin: 0 3vw 2vh 3vw;
     bottom: 0;
-    height: 13vh;
+    position: fixed;
+    height: 12vh;
+    margin: 0 3vw 2vh 3vw;
     width: 94vw;
     background-color: rgba(0, 0, 0, 0.774);
     border: solid 1px rgb(0, 0, 0);
